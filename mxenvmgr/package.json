@@ -1,0 +1,42 @@
+{
+    "name": "mxenvmgr",
+    "version": "1.0.0",
+    "license": "UNLICENSED",
+    "description": "Auto mail process will automatically checks your mail, unzip it and format your code",
+    "keywords": [
+        "mail listener",
+        "unzip",
+        "pretty-data",
+        "formatter"
+    ],
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maplebots/mxenvmgr"
+    },
+    "scripts": {
+        "test": "node main.js"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "imap": "^0.8.19",
+        "imap-simple": "^3.2.0",
+        "mail-listener": "^0.7.1",
+        "mail-listener2": "^0.3.1",
+        "mail-listener3": "^0.3.1",
+        "mailparser": "^0.4.9",
+        "mkdir": "0.0.2",
+        "mkdirp": "^0.5.1",
+        "nodemailer": "^4.6.7",
+        "npm": "^4.0.0",
+        "path": "^0.12.7",
+        "pretty-data": "0.40.0",
+        "sendmail": "^1.1.1",
+        "unzip": "^0.1.11"
+    },
+    "author1": "Sasikumar <sasi.kumar@maplebots.com>",
+    "author2": "Tamilselvan <tamilselvan.sundharam@maplebots.com>",
+    "author3": "Kiruthika <kiruthika.jayagopal@maplebots.com>",
+    "author4": "gowtham.somasundaram@maplebots.com",
+    "author5": "kaviyarasu.sivasamy@maplebots.com"
+}
